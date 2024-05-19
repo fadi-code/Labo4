@@ -99,7 +99,17 @@
 							"outputs": [
 								{
 									"referenceName": "azurdatalakeconnection",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"SCHEMA": {
+											"value": "@item().schemas",
+											"type": "Expression"
+										},
+										"TABLES": {
+											"value": "@item().tables",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
