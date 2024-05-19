@@ -1,0 +1,9 @@
+{
+	"name": "adf-labo4",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7357eb4d-0900-4415-8319-e7b75ebdf40e",
+		"tenantId": "e9752b9c-d6f7-48c7-9fac-455ccc25f8d0"
+	}
+}
