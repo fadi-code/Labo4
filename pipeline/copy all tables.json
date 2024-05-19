@@ -36,7 +36,7 @@
 				"type": "ForEach",
 				"dependsOn": [
 					{
-						"activity": "loop all tables ",
+						"activity": "loop all tables",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -45,7 +45,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('loop all tables ').output.value",
+						"value": "@activity('loop all tables').output.value",
 						"type": "Expression"
 					},
 					"activities": [
