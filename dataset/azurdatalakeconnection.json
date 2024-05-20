@@ -23,7 +23,7 @@
 					"type": "Expression"
 				},
 				"folderPath": {
-					"value": "@dataset().SCHEMA",
+					"value": "@{concat(dataset().SCHEMA,'/',dataset().TABLES)}",
 					"type": "Expression"
 				},
 				"fileSystem": "bronze"
