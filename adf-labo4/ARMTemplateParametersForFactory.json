@@ -31,6 +31,9 @@
 		},
 		"SqlServer2_properties_typeProperties_userName": {
 			"value": "fadi"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0519-181210-yhgra6ae"
 		}
 	}
 }
