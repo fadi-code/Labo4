@@ -1,6 +1,8 @@
-**Pipeline de Données de Bout en Bout sur Azure**
+# Pipeline de Données de Bout en Bout sur Azure 
 
-**Vue d'Ensemble**  
+## Vue d'Ensemble
+
+
 Ce document présente une solution complète d'ingénierie des données sur Azure. Ce projet intègre divers services Azure pour orchestrer, transformer et visualiser les données. La pipeline utilise :  
 
 - **Azure Data Factory (ADF)** pour l'orchestration des données  
@@ -10,7 +12,7 @@ Ce document présente une solution complète d'ingénierie des données sur Azur
 
 ---
 
-**Structure du Projet**  
+## Structure du Projet
 Le projet est organisé autour des composants suivants :  
 
 - **Key Vault** : Gestion des secrets pour éviter le stockage d'informations sensibles dans le code  
@@ -22,7 +24,7 @@ Le projet est organisé autour des composants suivants :
 
 ---
 
-**Prérequis**  
+## Prérequis
 Avant de commencer, assurez-vous d'avoir :  
 
 - Un abonnement Azure avec les permissions nécessaires  
@@ -30,8 +32,7 @@ Avant de commencer, assurez-vous d'avoir :
 - Une compréhension de base des services Azure et des concepts d'ingénierie des données  
 
 ---
-
-**Mise en Place du Projet**  
+## Mise en Place du Projet
 
 **1. Téléchargement et Restauration de la Base de Données AdventureWorksLT2017**  
 - **Télécharger la base de données** : Obtenez AdventureWorksLT2017 depuis le lien officiel  
@@ -118,5 +119,5 @@ Power BI permet la visualisation interactive des données.
 
 ---
 
-**Conclusion**  
+## conclusion
 Ce document fournit un guide détaillé pour mettre en place un pipeline de données sur Azure. En intégrant ADF, Databricks, Synapse et Power BI, il permet une gestion efficace des données et une visualisation performante.  
