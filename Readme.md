@@ -45,7 +45,7 @@ Avant de commencer, assurez-vous d'avoir :
 **1. Téléchargement et Restauration de la Base de Données AdventureWorksLT2017**  
 - **Télécharger la base de données** : Obtenez AdventureWorksLT2017 depuis le lien officiel  
 - **Restaurer la base de données** : Suivez les instructions pour restaurer la base sur votre instance SQL Server  
-
+![Screenshot 1](images/1.png)
 **2. Configuration d'Azure Data Factory (ADF)**  
 Azure Data Factory orchestre le mouvement des données et l'exécution des transformations.  
 
