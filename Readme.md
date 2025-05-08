@@ -2,13 +2,7 @@
 
 ## Vue d'Ensemble
 
-![Screenshot 1](images/1.png)
-![Screenshot 2][def]
-![Screenshot 3](images/3.png)
-![Screenshot 4](images/4.png)
-![Screenshot 5](images/5.png)
-![Additional Image A](images/a.png)
-![BTS Image](images/bts.png)
+
 
 
 Ce document présente une solution complète d'ingénierie des données sur Azure. Ce projet intègre divers services Azure pour orchestrer, transformer et visualiser les données. La pipeline utilise :  
