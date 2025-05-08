@@ -3,7 +3,7 @@
 ## Vue d'Ensemble
 
 ![Screenshot 1](images/1.png)
-![Screenshot 2](images/2.png)
+![Screenshot 2][def]
 ![Screenshot 3](images/3.png)
 ![Screenshot 4](images/4.png)
 ![Screenshot 5](images/5.png)
@@ -12,7 +12,7 @@
 
 
 Ce document présente une solution complète d'ingénierie des données sur Azure. Ce projet intègre divers services Azure pour orchestrer, transformer et visualiser les données. La pipeline utilise :  
-
+![toutes les ressources](images/9.png)
 - **Azure Data Factory (ADF)** pour l'orchestration des données  
 - **Azure Databricks** pour la transformation des données avec des notebooks PySpark  
 - **Azure Synapse Analytics** pour l'entreposage des données  
@@ -29,7 +29,7 @@ Le projet est organisé autour des composants suivants :
 - **Azure Databricks** : Traitement des données (bronze → silver → gold)  
 - **Azure Synapse Analytics** : Entrepôt de données  
 - **Power BI** : Visualisation interactive des données  
-
+![toutes les ressources](images/toutes.png)
 ---
 
 ## Prérequis
@@ -60,7 +60,7 @@ Azure Data Factory orchestre le mouvement des données et l'exécution des trans
 - **Ajouter et configurer des activités**  
   - Ajouter des activités comme "Copy Data", "Data Flow" et "Lookup"  
   - Définir les sources et destinations  
-
+![Screenshot 2](images/2.png)
 - **Configuration des Sources de Données**  
   - **Services liés** : Aller dans "Manage" > "Linked services"  
   - Ajouter des connexions (Azure SQL, Blob Storage, etc.)  
@@ -72,7 +72,7 @@ Azure Data Factory orchestre le mouvement des données et l'exécution des trans
   - Ajouter l'activité Databricks Notebook au pipeline  
   - Configurer des exécutions planifiées ou événementielles  
   - Surveiller les exécutions via l'onglet "Monitor"  
-
+![BTS Image](images/bts.png)
 ---
 
 **3. Configuration d'Azure Databricks**  
@@ -90,7 +90,7 @@ Azure Databricks offre un environnement Spark pour le traitement des données.
 - **Développement de Notebooks Python**  
   - Créer des notebooks et écrire le code pour les transformations bronze → silver → gold  
   - Exécuter et valider le code  
-
+![databricks](images/11.png)
 ---
 
 **4. Configuration d'Azure Synapse Analytics**  
@@ -106,6 +106,8 @@ Azure Synapse combine big data et entreposage de données.
   - Ajuster les performances  
   - Exécuter des requêtes SQL  
   - Créer des vues standards  
+![Snps](images/3.png)
+![Snps](images/4.png)
 
 ---
 
@@ -124,8 +126,11 @@ Power BI permet la visualisation interactive des données.
 - **Publication et Partage**  
   - Publier sur Power BI Service  
   - Partager les rapports avec les parties prenantes  
-
+![PB](images/8.png)
 ---
 
 ## conclusion
 Ce document fournit un guide détaillé pour mettre en place un pipeline de données sur Azure. En intégrant ADF, Databricks, Synapse et Power BI, il permet une gestion efficace des données et une visualisation performante.  
+
+
+[def]: images/2.png
